@@ -1,0 +1,126 @@
+body{
+    background-color:#ffffe4;
+}
+
+fieldset{
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    color: #d44242;
+    border: 5px solid #ee6f6f;
+    border-radius: 10px;
+    padding-left: 80 px;
+}
+
+fieldset legend{
+    font-size: 50px;
+}
+
+.content{
+    text-align: left;
+    line-height: 80px;
+}
+
+.content input{
+    border: none;
+    background-color: #ffffe4;
+    border-bottom: 4px solid #ee6f6f;
+    font-size: 40px;
+    font-family: 'Prompt', sans-serif;
+    color: #d44242;
+    font-weight: bold;
+}
+
+.content span{
+    font-size: 40px;
+}
+
+.content select{
+    font-size: 40px;
+    border: 5px solid #ee6f6f;
+    border-radius: 15px;
+    background-color: #fce07d;
+    font-family: 'Prompt', sans-serif;
+    color: #d44242;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content button{
+    font-family: 'Prompt', sans-serif;
+    color: #d44242;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #ee6f6f;
+    border: none;
+    color: #fce07d;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content button:hover{
+    transition: all 0.5s;
+    box-shadow: 8px 10px 53px 6px rgba(255, 255, 255, 0.59);
+    -webkit-box-shadow: 8px 10px 53px 6px rgba(255, 253, 253, 0.59);
+    -moz-box-shadow: 8px 10px 53px 6px rgba(255, 248, 248, 0.59);
+}
+
+#timerClock{
+    font-size: 40px;
+}
+
+#game-container {
+	margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #fce07d;
+    border: 6px solid #ee6f6f;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgb(46, 49, 47);
+}
+
+.red{
+    background-color: rgb(224, 91, 91); 
+}
+.blue{
+    background-color: rgb(96, 96, 212); 
+}
+
+.green{
+    background-color: rgb(85, 187, 85); 
+}
+
+.back{
+    text-align: center;
+    margin-left: 48%;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    color:#fff3e4;
+    background-color: #ee6f6f;      
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 12px 26px 12px 26px;
+}
+p a {
+    color: white;
+}
+a:link{
+    color: #f1bd5b; 
+} /* unvisited link */
+a:visited{
+    color: #ffffff; 
+} /* visited link */
+a:hover{ 
+    color: #fce07d;
+} /* mouse over link */

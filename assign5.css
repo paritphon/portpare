@@ -1,0 +1,46 @@
+h1{
+    color:  #ee6f6f;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+h2{
+    margin-left: 50%;
+    color:  #ee6f6f;
+    font-family: 'Prompt', sans-serif;
+}
+
+body{
+    background-color: #fce07d;
+}
+
+.textbox{
+    text-align: center;
+}
+.button1{
+    text-align: center;
+}
+
+.back{
+    text-align: center;
+    margin-left: 48%;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    color:#fff3e4;
+    background-color: #ee6f6f;      
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 12px 26px 12px 26px;
+}
+p a {
+    color: white;
+}
+a:link{
+    color: #f1bd5b; 
+} /* unvisited link */
+a:visited{
+    color: #ffffff; 
+} /* visited link */
+a:hover{ 
+    color: #fce07d;
+} /* mouse over link */
